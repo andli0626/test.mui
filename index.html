@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" type="text/css" href="css/mui.min.css" />
+
+		<style type="text/css">
+			body {}
+			
+			.mui-content {}
+			
+			.mui-content-padded {
+				margin-top: 40px;
+				margin-left: 20px;
+				margin-right: 20px;
+			}
+			
+			p {
+				margin-top: 20px;
+				margin-bottom: 20px;
+				margin-left: 10px;
+				margin-right: 10px;
+				font-size: 18px;
+			}
+			
+			.mui-btn {
+				border-radius: 5px;
+				border-top-left-radius: 5px;
+				border-top-right-radius: 5px;
+				border-bottom-right-radius: 5px;
+				border-bottom-left-radius: 5px;
+			}
+			
+			.mui-btn-block {
+				padding: 9px 0;
+			}
+			
+			.mui-btn-blue {
+				background-color: #5f74e1;
+				border: 1px #5f74e1;
+			}
+			
+			.mui-btn-blue.mui-active:enabled,
+			.mui-btn-blue:enabled:active {
+				background-color: #999999;
+				border: 1px #999999;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div class="mui-content">
+			<p>请将您在热线运行平台的账号与微信号进行绑定，绑定后，可通过微信处理工单信息</p>
+
+			<div class="mui-input-group">
+				<div class="mui-input-row">
+					<label>用户名：</label>
+					<input type="text" placeholder="请输入用户名/手机号" class="mui-input-clear" />
+				</div>
+				<div class="mui-input-row">
+					<label>密码：</label>
+					<input type="password" placeholder="请输入密码" class="mui-input-password" />
+				</div>
+			</div>
+
+			<div class="mui-content-padded">
+				<button type="button" class="mui-btn mui-btn-blue mui-btn-block">登&nbsp;&nbsp;&nbsp;录</button>
+			</div>
+
+		</div>
+		<script src="js/mui.min.js"></script>
+	</body>
+
+</html>
